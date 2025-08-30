@@ -59,6 +59,11 @@ body {
   }
 }
 
+.oculto {
+  opacity: 0;
+  visibility: hidden;
+}
+
 .night {
   z-index: -1;
   position: absolute;
