@@ -15,7 +15,15 @@
     </div>
     <h1 class="titulo">Desconozco lo que traerá el futuro. <br> <br>
       Pero tengo claro que quiero compartirlo contigo.</h1>
-  
+  <script>
+  // Espera 5 segundos (5000 ms) y luego oculta el h1
+  setTimeout(() => {
+    const titulo = document.querySelector(".titulo");
+    if (titulo) {
+      titulo.style.display = "none"; // desaparece de golpe
+    }
+  }, 7000);
+</script>
     <div class="night"></div>
     <div class="flowers">
       <div class="flower flower--1">
